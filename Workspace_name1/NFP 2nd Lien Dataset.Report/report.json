@@ -28,7 +28,7 @@
       "name": "ReportSection",
       "visualContainers": [
         {
-          "config": "{\"name\":\"ac490506cae0b87dc70f\",\"layouts\":[{\"id\":0,\"position\":{\"x\":10,\"y\":0,\"width\":280,\"height\":280,\"z\":0,\"tabOrder\":0}}],\"singleVisual\":{\"visualType\":\"textbox\",\"drillFilterOtherVisuals\":true,\"objects\":{\"general\":[{\"properties\":{\"paragraphs\":[{\"textRuns\":[{\"value\":\"CCCCDDD\",\"textStyle\":{\"fontSize\":\"40pt\"}}]}]}}]}}}",
+          "config": "{\"name\":\"ac490506cae0b87dc70f\",\"layouts\":[{\"id\":0,\"position\":{\"x\":10,\"y\":0,\"width\":280,\"height\":280,\"z\":0,\"tabOrder\":0}}],\"singleVisual\":{\"visualType\":\"textbox\",\"drillFilterOtherVisuals\":true,\"objects\":{\"general\":[{\"properties\":{\"paragraphs\":[{\"textRuns\":[{\"value\":\"CCCCDDD\",\"textStyle\":{\"fontSize\":\"40pt\"}}]},{\"textRuns\":[{\"value\":\"CCCCDDD\",\"textStyle\":{\"fontSize\":\"53.3333px\"}}]},{\"textRuns\":[{\"value\":\"CCCCDDD\",\"textStyle\":{\"fontSize\":\"53.3333px\"}}]}]}}]}}}",
           "filters": "[]",
           "height": 280.00,
           "width": 280.00,
