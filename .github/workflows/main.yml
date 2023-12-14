@@ -14,7 +14,7 @@ jobs:
           separator: ","
           quotepath: false
       - name: Power BI Workspace Deploy
-        uses: mahilario-arch/Power-BI-Workspace-Deploy@latest
+        uses: mahilario-arch/Power-BI-Workspace-Deploy
         with:
           files: ${{ steps.changed-files.outputs.all_modified_files }}
           separator: ","
