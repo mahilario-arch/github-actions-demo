@@ -1,5 +1,5 @@
-name: Deploy to workspace
-on: [pull_request]
+name: Workflow Name
+on: pull_request
 jobs:
   Deploy-Asset:
     runs-on: ubuntu-latest
@@ -13,13 +13,10 @@ jobs:
         with:
           separator: ","
           quotepath: false
-      - name: Power BI Workspace Deploy
-        uses: mahilario-arch/Power-BI-Workspace-Deploy@v1.0
+      - name: Upload files
+        uses: mohitnayar123/power-bi-utils@v1.0.3 # Replace this with the latest version
         with:
           files: ${{ steps.changed-files.outputs.all_modified_files }}
-          separator: ","
-          tenant_id: "441d4a8f-7999-4d6a-9670-672cf8d03e35"
-          config_file: ".github/config/workspace-deploy-config.yaml"
         env:
-          CLIENT_ID: ${{ secrets.CLIENT_ID }}
-          CLIENT_SECRET: ${{ secrets.CLIENT_SECRET }}
+          CLIENT_ID: ${{ secrets.client_id }}
+          CLIENT_SECRET: ${{ secrets.client_secret }}
