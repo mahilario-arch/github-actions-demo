@@ -1,5 +1,5 @@
 spn_credentials:
-    tenant_id: "21a1f2d2-3e39-4801-b5b9-ea20a6d44d64"           #The tenant id
+    tenant_id:21a1f2d2-3e39-4801-b5b9-ea20a6d44d64           #The tenant id
 
 deploy_options:
     max_file_size_supported_in_mb: 110                        #Maximum File Size Supported. Action only supports files upto 1000 MB.
@@ -14,4 +14,4 @@ rdl_deploy_options:
     rdl_name_conflict: Overwrite                              #Determines what to do if a dataset with the same name already exists. Only Abort and Overwrite are supported with Rdl files. (https://docs.microsoft.com/en-us/rest/api/power-bi/imports/post-import-in-group#post-import-example)
 
 deploy_location:
-    workspace_id:"aa9b9cc2-3829-408d-a083-1208817f1769"        #The workspace ID
+    workspace_id:aa9b9cc2-3829-408d-a083-1208817f1769        #The workspace ID
